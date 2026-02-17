@@ -223,6 +223,24 @@ namespace maqueenPlusV2 {
     }
 
     /**
+     * Move the robot in a given direction at a given speed, then stop after a duration.
+     * @param emotor Motor selection enumeration
+     * @param edir Motor direction selection enumeration
+     * @param speed Motor speed control, eg:100
+     * @param duration Duration in milliseconds, eg:1000
+     */
+
+    //% block="move %emotor direction %edir speed %speed for %duration ms then stop"
+    //% speed.min=0 speed.max=255
+    //% duration.shadow=timePicker
+    //% weight=100
+    export function controlMotorDuration(emotor:MyEnumMotor, edir:MyEnumDir, speed:number, duration:number):void{
+        controlMotor(emotor, edir, speed);
+        basic.pause(duration);
+        controlMotorStop(emotor);
+    }
+
+    /**
      * Control the motor module to stop running
      * @param emotor Motor selection enumeration
      */
