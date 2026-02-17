@@ -1,0 +1,24 @@
+{
+    "name": "MaqueenPlus-FR",
+    "version": "1.5.1-fr",
+    "description": "Extension Maqueen Plus en français pour micro:bit — version traduite par Claude (Anthropic). Robot éducatif STEM compatible Huskylens.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "maqueenplus.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.0",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
