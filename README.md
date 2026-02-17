@@ -1,4 +1,4 @@
-# Maqueen Plus — Extension MakeCode en français
+**# Maqueen Plus — Extension MakeCode en français
 
 Extension traduite en français pour le robot éducatif **Maqueen Plus** de DFRobot.
 Compatible micro:bit V1 et V2. Traduction réalisée à partir du dépôt original :
@@ -80,3 +80,4 @@ Traduction française : Claude (Anthropic), 2026
 ## Cible
 
 * for PXT/microbit
+**
