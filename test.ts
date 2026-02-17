@@ -1,6 +1,0 @@
-// Tests de base pour l'extension Maqueen Plus (version française)
-DFRobotMaqueenPlus.I2CInit()
-DFRobotMaqueenPlus.mototRun(Motors.ALL, Dir.CW, 100)
-DFRobotMaqueenPlus.mototStop(Motors.ALL)
-DFRobotMaqueenPlus.setRGBLight(RGBLight.RGBALL, Color.RED)
-DFRobotMaqueenPlus.servoRun(Servos.S1, 90)
