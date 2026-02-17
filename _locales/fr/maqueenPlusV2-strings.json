@@ -1,0 +1,115 @@
+{
+    "maqueenPlusV2|block": "Maqueen Plus V2&V3",
+    "{id:category}maqueenPlusV2": "Maqueen Plus V2&V3",
+
+    "maqueenPlusV2.I2CInit|block": "Initialiser le Maqueen Plus",
+
+    "maqueenPlusV2.MyEnumMotor.LeftMotor|block": "moteur gauche",
+    "maqueenPlusV2.MyEnumMotor.RightMotor|block": "moteur droit",
+    "maqueenPlusV2.MyEnumMotor.AllMotor|block": "les deux moteurs",
+    "maqueenPlusV2.MyEnumDir.Forward|block": "en avant",
+    "maqueenPlusV2.MyEnumDir.Backward|block": "en arrière",
+    "maqueenPlusV2.controlMotor|block": "faire tourner %emotor %edir vitesse %speed",
+    "maqueenPlusV2.controlMotorStop|block": "arrêter %emotor",
+    "maqueenPlusV2.controlMotorDuration|block": "faire avancer %emotor direction %edir vitesse %speed pendant %duration ms puis s'arrêter",
+
+    "maqueenPlusV2.MyEnumLed.LeftLed|block": "LED gauche",
+    "maqueenPlusV2.MyEnumLed.RightLed|block": "LED droite",
+    "maqueenPlusV2.MyEnumLed.AllLed|block": "les deux LEDs",
+    "maqueenPlusV2.MyEnumSwitch.Open|block": "allumer",
+    "maqueenPlusV2.MyEnumSwitch.Close|block": "éteindre",
+    "maqueenPlusV2.controlLED|block": "contrôler %eled %eSwitch",
+
+    "maqueenPlusV2.readLineSensorState|block": "état capteur de suivi %eline",
+    "maqueenPlusV2.readLineSensorData|block": "valeur ADC capteur de suivi %eline",
+
+    "maqueenPlusV2.readUltrasonic|block": "distance en cm (broche TRIG %trig / ECHO %echo)",
+
+    "maqueenPlusV2.readVersion|block": "lire la version",
+
+    "maqueenPlusV2.IR_read|block": "lire valeur touche infrarouge",
+    "maqueenPlusV2.IR_callbackUser|block": "quand un signal infrarouge est reçu",
+    "maqueenPlusV2.onIrDatagram|block": "quand un signal infrarouge est reçu",
+    "maqueenPlusV2.irButton|block": "lire valeur touche infrarouge",
+
+    "maqueenPlusV2.NeoPixelColors.Red|block": "rouge",
+    "maqueenPlusV2.NeoPixelColors.Orange|block": "orange",
+    "maqueenPlusV2.NeoPixelColors.Yellow|block": "jaune",
+    "maqueenPlusV2.NeoPixelColors.Green|block": "vert",
+    "maqueenPlusV2.NeoPixelColors.Blue|block": "bleu",
+    "maqueenPlusV2.NeoPixelColors.Indigo|block": "indigo",
+    "maqueenPlusV2.NeoPixelColors.Violet|block": "violet",
+    "maqueenPlusV2.NeoPixelColors.Purple|block": "mauve",
+    "maqueenPlusV2.NeoPixelColors.White|block": "blanc",
+    "maqueenPlusV2.NeoPixelColors.Black|block": "éteint",
+
+    "maqueenPlusV2.setBrightness|block": "régler la luminosité des LEDs RGB à |%brightness",
+    "maqueenPlusV2.showColor|block": "allumer toutes les LEDs RGB avec la couleur |%rgb=neopixel_colors",
+    "maqueenPlusV2.setIndexColor|block": "allumer LED RGB |%index avec la couleur |%rgb=neopixel_colors",
+    "maqueenPlusV2.ledRange|block": "LEDs RGB de |%from à |%to",
+    "maqueenPlusV2.rgb|block": "rouge|%r vert|%g bleu|%b",
+    "maqueenPlusV2.ledRainbow|block": "LEDs RGB arc-en-ciel de |%startHue à |%endHue",
+    "maqueenPlusV2.ledBlank|block": "éteindre toutes les LEDs RGB",
+
+    "maqueenPlusV2.CarLightColors.Red|block": "rouge",
+    "maqueenPlusV2.CarLightColors.Green|block": "vert",
+    "maqueenPlusV2.CarLightColors.Yellow|block": "jaune",
+    "maqueenPlusV2.CarLightColors.Blue|block": "bleu",
+    "maqueenPlusV2.CarLightColors.Cyan|block": "cyan",
+    "maqueenPlusV2.CarLightColors.Purple|block": "violet",
+    "maqueenPlusV2.CarLightColors.White|block": "blanc",
+    "maqueenPlusV2.CarLightColors.Black|block": "éteint",
+    "maqueenPlusV2.setRgblLed|block": "feux RGB de la voiture %type couleur %rgb",
+
+    "maqueenPlusV2.MotorType.Motor133|block": "133 tr/min",
+    "maqueenPlusV2.MotorType.Motor266|block": "266 tr/min",
+    "maqueenPlusV2.setMotorType|block": "type de moteur %type",
+
+    "maqueenPlusV2.setPatrolSpeed|block": "suivi de ligne : régler vitesse %speed=PatrolSpeed_conv",
+    "maqueenPlusV2.patrolling|block": "suivi de ligne %patrol",
+    "maqueenPlusV2.Patrolling.ON|block": "démarrer",
+    "maqueenPlusV2.Patrolling.OFF|block": "arrêter",
+
+    "maqueenPlusV2.intersectionDetecting|block": "détecter intersection",
+
+    "maqueenPlusV2.Intersection.Straight|block": "tout droit",
+    "maqueenPlusV2.Intersection.Left|block": "tourner à gauche",
+    "maqueenPlusV2.Intersection.Right|block": "tourner à droite",
+    "maqueenPlusV2.Intersection.Stop|block": "arrêter le suivi",
+    "maqueenPlusV2.setIntersectionRunMode|block": "au carrefour %mode",
+
+    "maqueenPlusV2.Trord.Left|block": "tourner à gauche",
+    "maqueenPlusV2.Trord.Right|block": "tourner à droite",
+    "maqueenPlusV2.Trord.Stop|block": "arrêter le suivi",
+    "maqueenPlusV2.setTRordRunMode|block": "au croisement en T %mode",
+
+    "maqueenPlusV2.LeftOrStraight.Straight|block": "tout droit",
+    "maqueenPlusV2.LeftOrStraight.Left|block": "tourner à gauche",
+    "maqueenPlusV2.LeftOrStraight.Stop|block": "arrêter le suivi",
+    "maqueenPlusV2.setLeftOrStraightRunMode|block": "à l'intersection gauche/tout droit %mode",
+
+    "maqueenPlusV2.RightOrStraight.Straight|block": "tout droit",
+    "maqueenPlusV2.RightOrStraight.Right|block": "tourner à droite",
+    "maqueenPlusV2.RightOrStraight.Stop|block": "arrêter le suivi",
+    "maqueenPlusV2.setRightOrStraightRunMode|block": "à l'intersection droite/tout droit %mode",
+
+    "maqueenPlusV2.readLightIntensity|block": "lire valeur lumière %type",
+
+    "maqueenPlusV2.DirectionType.Left|block": "gauche",
+    "maqueenPlusV2.DirectionType.Right|block": "droite",
+    "maqueenPlusV2.DirectionType.All|block": "tout",
+    "maqueenPlusV2.DirectionType2.Left|block": "gauche",
+    "maqueenPlusV2.DirectionType2.Right|block": "droite",
+
+    "maqueenPlusV2.SpeedDirection.SpeedCW|block": "en avant",
+    "maqueenPlusV2.SpeedDirection.SpeedCCW|block": "en arrière",
+
+    "maqueenPlusV2.MyInterruption.Allowed|block": "interruption autorisée",
+    "maqueenPlusV2.MyInterruption.NotAllowed|block": "interruption non autorisée",
+
+    "maqueenPlusV2.pidControlDistance|block": "contrôle PID distance %dir %distance cm %interruption",
+    "maqueenPlusV2.pidControlAngle|block": "contrôle PID angle %angle° %interruption",
+    "maqueenPlusV2.pidControlStop|block": "arrêter contrôle PID",
+
+    "maqueenPlusV2.readRealTimeSpeed|block": "lire vitesse en temps réel roue %type (cm/s)"
+}
